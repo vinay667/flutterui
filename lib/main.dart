@@ -1,5 +1,8 @@
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterui/dialog/otp_dialog.dart';
+import 'package:flutterui/screens/registration_step1.dart';
 
 void main() => runApp(MyApp());
 
@@ -37,12 +40,16 @@ class _MyHomePageState extends State<MyHomePage> {
             RaisedButton(
               color: Colors.blue,
               onPressed: () {
-                showDialog(
+                /*showDialog(
                   context: context,
                   builder: (_) => OtpDialog(),
-                );
+                );*/
+
+                Navigator.push(context, CupertinoPageRoute(builder: (context)=>RegistrationStep1Screen()));
+
+
               },
-              child: Text('Open Dialog',style: TextStyle(color: Colors.white)),
+              child: Text('Start Registration',style: TextStyle(color: Colors.white)),
             ),
           ],
         ),

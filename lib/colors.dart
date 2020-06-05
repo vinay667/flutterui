@@ -20,5 +20,11 @@ class MyColor {
   static const gradientEnd = Color.fromRGBO(69,218,190,1);
   static const redColor = Color.fromRGBO(224,37,41,1);
   static const pinColor = Color.fromRGBO(242,240,240,1);
+  static const hintColor = Color.fromRGBO(52,52,52,0.6);
+  static const labelColor = Color.fromRGBO(0,0,0,0.9);
+  static const inputColor = Color.fromRGBO(0,0,0,0.7);
+  static const lineColor = Color.fromRGBO(252,153,159,1);
+  static const softBlack = Color.fromRGBO(42,42,42,1);
+  static const lightGrey = Color.fromRGBO(72,72,72,0.9);
 
 }

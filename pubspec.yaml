@@ -42,6 +42,20 @@ flutter:
   uses-material-design: true
   assets:
     - images/close_dialog_icon.png
+    - images/reg_top.png
+    - images/color_circle.png
+    - images/empty_circle.png
+    - images/gender_icon.png
+    - images/calender.png
+    - images/rect.png
+    - images/button.png
+    - images/back_icon.png
+    - images/flag.png
+    - images/rounded_tick.png
+    - images/tick.png
+    - images/close_blue.png
+    - images/check.png
+    - images/ok_button.png
 
   fonts:
     - family: GilroyBold
@@ -50,6 +64,13 @@ flutter:
     - family: GilroySemibold
       fonts:
         - asset: fonts/gilroy_semibold.otf
+    - family: GilroyMedium
+      fonts:
+        - asset: fonts/gilroy_medium.otf
+
+    - family: IbmplexsansSemiBold
+      fonts:
+        - asset: fonts/ibmplexsans_semibold.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
